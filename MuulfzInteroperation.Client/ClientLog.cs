@@ -1,6 +1,5 @@
 ﻿namespace MuulfzInteroperation.Client
 {
-    using System;
     using CitizenFX.Core;
     using CitizenFX.Core.Native;
     using Core;

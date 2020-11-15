@@ -8,5 +8,6 @@
         void TriggerEvent(string eventName, params object[] args);
         void Add(string key, Delegate value);
         void Remove(string key, Delegate value);
+        void TriggerRemoteEvent(string eventName,string targetId, params object[] args);
     }
 }

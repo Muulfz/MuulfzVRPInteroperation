@@ -10,12 +10,13 @@
         private readonly IInteroperatingLog _log;
         public static IFivemLibrary FivemApi { get; set; }
         private string ResourceName { get; set; }
-        private string Prefix { get; set; } = FivemApi.ResourceName();
+        private string Prefix { get; set; }
 
         public Proxy(string resourceName, IInteroperatingLog log = null)
         {
             _log = log;
             ResourceName = resourceName;
+            Prefix = FivemApi.ResourceName();
         }
 
         public void TriggerAction(string functionName, params object[] args)

@@ -4,13 +4,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MuulfzInteroperation.Server")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Muulfz vRP Interoperation Server")]
+[assembly: AssemblyDescription("A Interoperation Library to vRP Framework")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MuulfzInteroperation.Server")]
+[assembly: AssemblyCompany("Stinx")]
+[assembly: AssemblyProduct("Muulfz Interoperation")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Stinx")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

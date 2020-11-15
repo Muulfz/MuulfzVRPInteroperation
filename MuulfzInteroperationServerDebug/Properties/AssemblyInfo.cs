@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Muulfz vRP Interoperation Client")]
-[assembly: AssemblyDescription("A Interoperation Library to vRP Framework")]
+[assembly: AssemblyTitle("MuulfzInteroperationServerDebug")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Stinx")]
-[assembly: AssemblyProduct("Muulfz Interoperation")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("MuulfzInteroperationServerDebug")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("Stinx")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("326bc25f-d7fc-48f4-a30d-14b455ba3d60")]
+[assembly: Guid("78dee5b9-72f8-4c2a-a25d-f05a2e81c508")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -5,13 +5,13 @@
     using CitizenFX.Core.Native;
     using Core;
 
-    public class FivemServerLibrary : BaseScript, IFivemLibrary
+    public class FivemClientLibrary : BaseScript, IFivemLibrary
     {
-        public static FivemServerLibrary Instance { get; private set; }
 
-        public FivemServerLibrary()
+        public FivemClientLibrary()
         {
-            Instance = this;
+            Proxy.FivemApi = this;
+            Tunnel.FivemApi = this;
         }
 
         public string ResourceName()
@@ -33,5 +33,11 @@
         {
             EventHandlers[key] -= value;
         }
+
+        public void TriggerRemoteEvent(string eventName, string targetId, params object[] args)
+        {
+            TriggerServerEvent(eventName, args);
+        }
+
     }
 }
